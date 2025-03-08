@@ -65,7 +65,7 @@ module.exports = async (req, res) => {
         }
 
         try {
-          const externalApiUrl = `https://resume-test-api-0r2l.onrender.com//submit`;
+          const externalApiUrl = `https://c2c-resume-analysis-api-profile.onrender.com//submit`;
           console.log("Sending request to external API:", externalApiUrl);
           console.log("Request data:", { ...formData, extractedText, fileName, fileType });
           
