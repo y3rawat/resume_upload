@@ -21,7 +21,7 @@ module.exports = async (req, res) => {
     try {
       const { job_description, additional_information, experience, extractedText, api, companyName, position } = req.body;
 
-      const externalApiUrl = `https://resume-test-api-0r2l.onrender.com//submit`;
+      const externalApiUrl = `https://c2c-resume-analysis-api-profile.onrender.com//submit`;
       const apiResponse = await axios.post(externalApiUrl, {
         job_description,
         additional_information,
